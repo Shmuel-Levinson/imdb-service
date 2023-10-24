@@ -1,6 +1,5 @@
 import axios from "axios";
 
-
 const getSearchUrl = (searchTerm: string) => {
     const url = `https://api.themoviedb.org/3/search/movie?query=${searchTerm}&include_adult=false&language=en-US&page=1`;
     return url
